@@ -12,9 +12,8 @@
 <meta property="og:url" content="https://urbanaru.com/en/">
 <link rel="alternate" hreflang="ko" href="https://urbanaru.com/">
 <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -153,6 +152,66 @@
           <figcaption>Report for universities and local governments (example in Korean, illustrative values)</figcaption>
         </figure>
       </div>
+    </div>
+    <div class="wrap">
+      <figure class="arch">
+        <svg viewBox="0 0 760 504" role="img" aria-label="Prototype: ask in the app, one engine answers and links issues to improvement" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arch-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="ah"/></marker></defs>
+<g class="ln" fill="none">
+<path d="M224 76H254" marker-end="url(#arch-arrow)"/>
+<path d="M432 76H454" marker-end="url(#arch-arrow)"/>
+<path d="M456 220H434" marker-end="url(#arch-arrow)"/>
+<path d="M256 220H124V146" marker-end="url(#arch-arrow)"/>
+<path d="M60 144V310" marker-end="url(#arch-arrow)"/>
+<path d="M596 274V310" marker-end="url(#arch-arrow)"/>
+<path d="M596 384V406" marker-end="url(#arch-arrow)"/>
+<path d="M124 408V386" marker-end="url(#arch-arrow)"/>
+<path d="M596 274V310" marker-start="url(#arch-arrow)"/></g>
+<rect class="bx" x="24" y="40" width="200" height="104" rx="8"/>
+<text class="nm" x="124" y="64" text-anchor="middle">User app / web</text>
+<text class="q" x="40" y="84" text-anchor="start">Foreign residents · living, travel</text>
+<text class="q" x="40" y="100" text-anchor="start">Ask in words or photos</text>
+<text class="q" x="40" y="116" text-anchor="start">Pick points or areas on a map</text>
+<text class="q" x="40" y="132" text-anchor="start">Report issues (photo, place)</text>
+<rect class="bx" x="256" y="40" width="176" height="72" rx="8"/>
+<text class="nm" x="344" y="64" text-anchor="middle">Query parsing (LLM)</text>
+<text class="q" x="344" y="84" text-anchor="middle">where · what · conditions</text>
+<text class="q" x="344" y="100" text-anchor="middle">field (living, travel)</text>
+<rect class="bx" x="256" y="168" width="176" height="104" rx="8"/>
+<text class="nm" x="344" y="192" text-anchor="middle">Results</text>
+<text class="q" x="272" y="212" text-anchor="start">Neighborhoods and places</text>
+<text class="q" x="272" y="228" text-anchor="start">Scores, sources, confidence</text>
+<text class="q" x="272" y="244" text-anchor="start">Report status, directions</text>
+<text class="q" x="272" y="260" text-anchor="start">KO · EN · ID · VI</text>
+<rect class="eng" x="456" y="40" width="280" height="232" rx="8"/>
+<text class="nm" x="596" y="62" text-anchor="middle">Urban-FIT engine</text>
+<rect class="bx" x="472" y="72" width="248" height="56" rx="8"/>
+<text class="nm" x="596" y="95" text-anchor="middle">Find</text>
+<text class="q" x="596" y="113" text-anchor="middle">taste ↔ space matching</text>
+<rect class="bx" x="472" y="136" width="248" height="56" rx="8"/>
+<text class="nm" x="596" y="159" text-anchor="middle">Diagnose</text>
+<text class="q" x="596" y="177" text-anchor="middle">indicators, everyday issues</text>
+<rect class="bx" x="472" y="200" width="248" height="56" rx="8"/>
+<text class="nm" x="596" y="223" text-anchor="middle">Improve</text>
+<text class="q" x="596" y="241" text-anchor="middle">text and images, suggestions</text>
+<rect class="db" x="24" y="312" width="712" height="72" rx="8"/>
+<text class="nm" x="380" y="336" text-anchor="middle">Space profile DB · Seodaemun, Mapo</text>
+<text class="q" x="380" y="356" text-anchor="middle">place ⊂ road segment ⊂ 50 m grid ⊂ administrative dong</text>
+<text class="q" x="380" y="372" text-anchor="middle">street photos · road width, population, buildings · local info, sights · reviews, reports · results, improvements</text>
+<rect class="bx" x="24" y="408" width="200" height="72" rx="8"/>
+<text class="nm" x="124" y="432" text-anchor="middle">Ambassadors</text>
+<text class="q" x="124" y="452" text-anchor="middle">assigned by admins</text>
+<text class="q" x="124" y="468" text-anchor="middle">field photos, checks, reports</text>
+<rect class="bx" x="456" y="408" width="280" height="72" rx="8"/>
+<text class="nm" x="596" y="432" text-anchor="middle">Reports for contracted partners (next)</text>
+<text class="q" x="596" y="452" text-anchor="middle">issue maps and directions by dong</text>
+<text class="q" x="596" y="468" text-anchor="middle">for universities, local governments</text>
+<text class="q" x="68" y="298" text-anchor="start">reviews, photos, reports</text>
+<text class="q" x="606" y="297" text-anchor="start">read / write</text>
+<text class="q" x="134" y="401" text-anchor="start">field checks</text>
+</svg>
+        <figcaption>Prototype: users ask and report in the app; one engine reads the space profile, answers, and links issues to improvement.</figcaption>
+      </figure>
     </div>
   </section>
 
